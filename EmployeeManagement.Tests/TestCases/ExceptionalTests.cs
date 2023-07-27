@@ -75,7 +75,7 @@ namespace EmployeeManagement.Tests.TestCases
         }
 
         [Fact]
-        public async Task<bool> GetEmployees_ReturnsNull_WhenRepositoryReturnsNull()
+        public async Task<bool> GetEmployees_Returns_NullWhenRepositoryReturnsNull()
         {
             //Arrange
             var res = false;
